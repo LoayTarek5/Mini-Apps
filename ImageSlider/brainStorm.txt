@@ -1,0 +1,3 @@
+- Let The User Add Images
+- Maximum Images are 10 only
+- Get The image from the user And Resize It

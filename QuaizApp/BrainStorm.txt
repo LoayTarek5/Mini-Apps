@@ -1,0 +1,9 @@
+Ideas:
+	-Next And Back Button
+	-Submit Test final
+	-many JASON Tests
+	-Choose The Type of  Test
+	-random Answers
+	-Add Many Questions and choose only  10 From Them Randomly
+	-local Storage of score of Students
+  -Show Dashboard

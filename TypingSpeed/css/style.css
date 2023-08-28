@@ -1,0 +1,124 @@
+:root {
+  --main-color: #2196f3;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* #009688 */
+
+header {
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.start-area p {
+  margin: 30px 0;
+}
+
+.start-area button {
+  width: 100%;
+  margin-bottom: 20px;
+
+  padding: 15px;
+  background-color: #009688;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.start-area .selected-word {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--main-color);
+  user-select: none;
+  margin-bottom: 15px;
+}
+
+.typing-area input {
+  margin-bottom: 20px;
+  width: 100%;
+  border: 3px solid var(--main-color);
+  text-align: center;
+  outline: none;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  caret-color: var(--main-color);
+}
+
+.words-container {
+  background-color: white;
+  margin: 15px 0;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.words-container div {
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  margin: 4px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.info-game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.start-area p span,
+.info-game .time span,
+.info-game .score span {
+  color: #009688;
+  font-weight: bold;
+}
+
+.end-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--main-color);
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+.end-content .final-msg {
+  line-height: 2;
+  margin: 15px 0px;
+}
+.end-content .again-btn {
+  background-color: #009688;
+  border: navajowhite;
+  outline: navajowhite;
+  padding: 10px 35px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+
+.container {
+  width: 1000px;
+  margin: 35px auto;
+  background-color: #d3d3d3a6;
+  padding: 25px;
+  border-radius: 5px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+header .category span,
+header .question-count span {
+  font-weight: 900;
+  font-family: cursive;
+  color: #ff5722;
+}
+
+.question-content {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+
+}
+.question-content h2 {
+  margin: 35px 0px 0px 10px;
+}
+.question-content form {
+  padding: 15px;
+}
+.question-content form .answer {
+  border-bottom: 1px solid gray;
+  padding: 16px;
+}
+.question-content form .answer:last-child {
+  border-bottom: none;
+}
+.question-content form .answer input {
+}
+.question-content form .answer label {
+  margin-left: 10px;
+  color: #544b4b;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.question-content form .answer.check label {
+  color: #2196f3;
+}
+
+.question-content .submit-btn {
+  border: none;
+  outline: none;
+  background-color: #03A9F4;
+  border-radius: 6px;
+  width: 100%;
+  padding: 15px 0;
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.question-content .submit-btn:hover {
+  background-color: #2196f3;
+}
+
+.question-info {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  align-items: center;
+}
+.question-info .bullets {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+  align-items: center;
+}
+.question-info .bullets li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #9e9e9eb8;
+}
+.question-info .bullets li.active {
+  background-color: #2196F3;
+}
+.question-info .counter {
+}
+.question-info .counter span {
+}
+
+.end-msg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
